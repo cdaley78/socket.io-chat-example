@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body { 
+  font: 13px Helvetica, Arial;
+}
+.user-input {
+  font-size: 32px;
+}
+.bkg {
+  background-color: rgba(0, 90, 90, 0.95);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.u-form {
+  bottom: 0;
+  height: 200px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.u-form p {
+  text-align: center;
+}
+.u-form form {
+  text-align: center;
+}
+.u-form form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 32px;
+  outline: none;
+}
+.chat-container {
+  bottom: 37px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.message-container {
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  width: 80%;
+}
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+#messages li {
+  border-bottom: 1px dotted #ccc;
+  padding: 5px 10px;
+}
+.msg-header {
+  font-weight: bold;
+}
+.users-online {
+  border-left: 1px solid #666;
+  color: #07c;
+  font-weight: bold;
+  height: 100%;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+  width: 19%;
+}
+.users-online p:first-child {
+  color: #000;
+  margin-bottom: 10px;
+}
+#chat {
+  bottom: 0;
+  height:37px;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+#chat input {
+  border: 1px solid #666;
+  border-left-width: 0;
+  border-right-width: 0;
+  outline: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+}
+#chat button {
+  background-color: #0e1222;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 9%;
+}
+.centered {
+  text-align: center;
+}
